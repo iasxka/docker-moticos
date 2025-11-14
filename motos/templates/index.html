@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Motos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background-color: #111;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .hero {
+            background-image: url('https://tse1.mm.bing.net/th/id/OIP.00S6KRdLhXIVDUGRcV-VxwHaE8?w=930&h=620&rs=1&pid=ImgDetMain&o=7&rm=3');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px black;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mundo Motos</h1>
+        <p>La pasión sobre dos ruedas</p>
+    </header>
+
+    
+
+    <div class="hero">
+        ¡Bienvenido al mundo de las motos!
+    </div>
+
+    <div class="container">
+        <section class="section">
+            <h2>Explora nuestra colección</h2>
+            <p>Descubre los modelos más potentes, veloces y elegantes del mercado. Desde motos deportivas hasta las clásicas de paseo, tenemos todo lo que un verdadero amante de las motocicletas necesita.</p>
+        </section>
+
+        <section class="modelos">
+            <h2>Tipos De Modelos</h2>
+            <div class="grid">
+                <div class="card">
+                    <h2>Deportiva</h2>
+                    <img src="https://www.motorrad-bilder.at/slideshows/291/017450/S1000RR_015.jpg" alt="Moto de aventura">
+                    <h3>BMW S1000RR</h3>
+                    <p>La BMW S1000RR es una motocicleta deportiva de alto rendimiento fabricada por BMW Motorrad. Se destaca por su potente motor de 999 cc con más de 200 caballos de fuerza, su aerodinámica avanzada y su tecnología de competición adaptada para la calle. Combina velocidad, precisión y estabilidad, lo que la convierte en una de las superbikes más rápidas y sofisticadas del mundo. Además, incorpora sistemas electrónicos como control de tracción, modos de conducción, quickshifter y ABS Pro, ofreciendo una experiencia segura y emocionante tanto en carretera como en pista..</p>
+                </div>
+                <div class="card">
+                    <h2>Clásica</h2>
+                    <img src="https://cdn.motor1.com/images/mgl/E6PEQR/s1/img_3556.jpg" alt="Moto clásica">
+                    <h3>Harley Davidson</h3>
+                    <p>La combinación perfecta entre potencia y estilo clásico.</p>
+                    <p>motores “V-twin”, sonido profundo, estética robusta que muchos identifican enseguida.</p>
+                    <p>El rugido del escape de una Harley es parte de su identidad: fuerte, grave y reconocible. Esto se debe en gran parte a la configuración del motor, su escape y el ritmo de los cilindros.</p>
+                    <p>Las Harley se enfocan más en el torque que en la velocidad. Tienen una fuerza impresionante desde bajas revoluciones, lo que da una sensación de empuje potente y constante.</p>
+                    <p>Normalmente de 6 velocidades (en modelos modernos) con transmisión final por correa dentada, que es más silenciosa y requiere menos mantenimiento que la cadena.</p>
+                </div>
+                <div class="card">
+                    <h2>Aventura</h2>
+                    <img src="https://www.advpulse.com/wp-content/uploads/2019/09/2020-Africa-Twin-Adventure-Sports-768x512.jpg" alt="Moto de aventura">
+                    <h3>Honda Africa Twin</h3>
+                    <p>La Honda Africa Twin es una motocicleta de tipo trail o adventure, diseñada para ofrecer un equilibrio entre rendimiento en carretera y capacidad off-road. Es reconocida por su potencia, comodidad y versatilidad, ideal para viajes largos y terrenos difíciles.</p>
+                    <p>Equipada con un motor bicilíndrico de 1100 cc (en las versiones más recientes), destaca por su suspensión de largo recorrido, control de tracción ajustable, y la opción de transmisión automática DCT (Dual Clutch Transmission). Su diseño robusto, inspirado en las motos del Rally Dakar, refleja su espíritu aventurero y su fiabilidad en todo tipo de condiciones.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria">
+            <h2>Galería</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Ducati Panigale v4</h3>
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.ZIpN9mJQZ-7cC6x90IfxPgHaE7?w=2048&h=1365&rs=1&pid=ImgDetMain&o=7&rm=3">
+                </div>
+                <div class="card">
+                    <h3>Suzuki GSX-R1000R</h3>
+                    <img src="https://images.caradisiac.com/images/7/5/3/3/177533/S0-essai-suzuki-gsx-r-1000-r-sportive-de-route-597547.jpg">
+                </div>
+                <div class="card">
+                    <h3>Himalayan 450</h3>
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.YITM6fFGEoaoT28875KwPAHaEM?rs=1&pid=ImgDetMain&o=7&rm=3">
+                </div>
+                <div class="card">
+                    <h3>Duke 390</h3>
+                    <img src="https://www.eicma.it/wp-content/uploads/2023/10/KTM-Duke-390_03.jpg">
+                </div>
+                <div class="card">
+                    <h3>BMW R 1200 Gs</h3>
+                    <img src="https://th.bing.com/th/id/R.5609c277aadb243b14f618ea64dbfe30?rik=E11rxdRhiu6EdQ&pid=ImgRaw&r=0">
+                </div>
+                <div class="card">
+                    <h3>Honda XRE 300</h3>
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.j3IitEX6rmnTCW3YulRXtAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3">
+                </div>
+            </div>
+        </section>
+
+                
+        <section class="section">
+            <h2>Noticias y eventos</h2>
+            <p>Mantente al tanto de los próximos lanzamientos, ferias de motos y eventos exclusivos para los fanáticos del motociclismo. ¡No te pierdas ninguna novedad!</p>
+        </section>
+
+        <section class="section">
+            <h2>Contacto</h2>
+            <p>Porfavor comunicarse al numero: 3310538346</p>
+            <p>o al correo: grupoBiker@gmil.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Mundo Motos | Diseñado con pasión por las dos ruedas</p>
+    </footer>
+</body>
+</html>
